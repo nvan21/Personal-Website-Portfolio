@@ -62,9 +62,9 @@ const AboutPage = () => {
         <p className="text-cream text-l md:text-2xl sm:text-xl font-medium font-main mt-2">
           I am a {getAge()} year old mechanical engineering student with a
           passion for everything from machine learning to advanced 3D modeling.
-          I am a quick learner and a meticulous worker. This blend of quick
-          learning and attention to detail, coupled with my intrinsic desire to
-          excel, helps me consistently deliver great results.
+          I am a quick, meticulous learner with an intrinsic desire to excel.
+          This blend, coupled with my aptitude for collaboration, helps me adapt
+          to new problems and develop innovative solutions.
         </p>
         <div className="flex flex-wrap mt-12 gap-9">
           <div className="sm:w-[250px] w-full">
