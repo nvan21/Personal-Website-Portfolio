@@ -2,13 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-:root {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-
-.bg-cover {
-  background-size: cover;
+.hover-default {
+  @apply hover:text-cream transition-all duration-500 cursor-pointer hover:scale-110;
 }
