@@ -16,6 +16,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AboutPage = () => {
   const aboutRef = useRef(null);
+
   const birthDate = new Date(2002, 10, 2, 0, 0, 0, 0);
   const currentDate = new Date();
 
@@ -46,7 +47,8 @@ const AboutPage = () => {
         },
       }
     );
-  });
+  }, [aboutRef]);
+
   return (
     <section
       className="px-6 py-10 sm:px-16 sm:py-16 max-w-7xl mx-auto relative z=0 bg-metal"
@@ -74,6 +76,7 @@ const AboutPage = () => {
               level={90}
             />
           </div>
+
           <div className="sm:w-[250px] w-full">
             <SkillCard
               icon={<FaPython className="text-gold text-9xl" />}

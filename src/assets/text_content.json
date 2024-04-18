@@ -1,0 +1,25 @@
+{
+  "workPage": {
+    "csl": {
+      "title": "Research Assistant",
+      "company": "Coordinated Systems Lab",
+      "experiences": ["Developed toy algorithms", "Worked on being awesome"],
+      "skills": ["Python", "Pytorch"],
+      "date": "September 2023 - Present"
+    },
+    "johnDeere": {
+      "title": "Engineering Intern on Implements and Attachments",
+      "company": "John Deere",
+      "experiences": ["Developed toy algorithms", "Worked on being awesome"],
+      "skills": ["PTC Creo"],
+      "date": "May 2023 - August 2023"
+    }
+  },
+  "projectPage": {
+    "ppoImplementation": {
+      "title": "PPO Algorithm Implementation",
+      "description": "Implemented the PPO deep reinforcement learning algorithm to a toy gymnasium environment.",
+      "skills": ["Python", "PyTorch"]
+    }
+  }
+}

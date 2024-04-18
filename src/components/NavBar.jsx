@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import { IoMenuOutline } from "react-icons/io5";
@@ -26,6 +25,9 @@ const NavBar = () => {
             <AnchorLink href="#work">Work</AnchorLink>
           </li>
           <li className="hover-default">
+            <AnchorLink href="#projects">Projects</AnchorLink>
+          </li>
+          <li className="hover-default">
             <AnchorLink href="#contact">Contact</AnchorLink>
           </li>
         </ul>
@@ -50,6 +52,9 @@ const NavBar = () => {
                 </li>
                 <li className="hover-default">
                   <AnchorLink href="#work">Work</AnchorLink>
+                </li>
+                <li className="hover-default">
+                  <AnchorLink href="#projects">Projects</AnchorLink>
                 </li>
                 <li className="hover-default">
                   <AnchorLink href="#contact">Contact</AnchorLink>
