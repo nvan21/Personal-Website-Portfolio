@@ -45,6 +45,8 @@ const EmailForm = () => {
       <input
         className="rounded-lg px-3 bg-cream text-metal w-full font-medium placeholder-metal placeholder:italic placeholder:font-normal shadow-xl"
         type="text"
+        id="name"
+        autoComplete="name"
         placeholder="Your Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
@@ -53,6 +55,8 @@ const EmailForm = () => {
       <input
         className="rounded-lg px-3 bg-cream text-metal w-full font-medium placeholder-metal placeholder:italic placeholder:font-normal shadow-xl"
         type="email"
+        id="email"
+        autoComplete="email"
         placeholder="Your Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
@@ -62,6 +66,7 @@ const EmailForm = () => {
         className="rounded-lg px-3 bg-cream text-metal w-full font-medium placeholder-metal placeholder:italic placeholder:font-normal shadow-xl"
         cols="30"
         rows="10"
+        id="message"
         value={message}
         placeholder="Your Message"
         onChange={(e) => setMessage(e.target.value)}
