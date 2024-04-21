@@ -3,5 +3,5 @@
 @import "tailwindcss/utilities";
 
 .hover-default {
-  @apply hover:text-cream transition-all duration-500 cursor-pointer hover:scale-110;
+  @apply hover:text-cream transition-all duration-500 cursor-pointer hover:scale-105;
 }

@@ -17,20 +17,16 @@ const IntroPage = () => {
   const barRef = useRef(null);
   const gearRef = useRef(null);
   const textRef = useRef(null);
-  const devDisable = true;
 
   useGSAP(() => {
-    if (devDisable) return;
-
     const bar = barRef.current;
     const gear = gearRef.current;
     const text = textRef.current;
 
     gsap.fromTo(
       bar,
-      { height: 0, opacity: 0 },
+      { opacity: 0 },
       {
-        height: "100%",
         opacity: 1,
         duration: 1.5,
         ease: "power1.inOut",

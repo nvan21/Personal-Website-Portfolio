@@ -3,23 +3,56 @@
     "csl": {
       "title": "Research Assistant",
       "company": "Coordinated Systems Lab",
-      "experiences": ["Developed toy algorithms", "Worked on being awesome"],
+      "experiences": [
+        "Utilized various resources to learn the fundamentals of machine learning",
+        "Applied machine learning knowledge with PyTorch to write various reinforcement learning algorithms for toy environment"
+      ],
       "skills": ["Python", "Pytorch"],
       "date": "September 2023 - Present"
     },
     "johnDeere": {
       "title": "Engineering Intern on Implements and Attachments",
       "company": "John Deere",
-      "experiences": ["Developed toy algorithms", "Worked on being awesome"],
+      "experiences": [
+        "Leveraged CAD and manufacturing process knowledge to develop a functional prototype of a lawnmower tool storage bracket for the select series lawnmowers",
+        "Laid the groundwork for future tractor cab redesigns by integrating market research, homologation investigation, and product design strategies to develop initial prototypes for feature adds which bolster the company’s business portfolio"
+      ],
       "skills": ["PTC Creo"],
       "date": "May 2023 - August 2023"
+    },
+    "graceTechnologies": {
+      "title": "IIoT Engineering Intern",
+      "company": "Grace Technologies",
+      "experiences": [
+        "Developed a field debugger application using python which queries an SQL database and returns various types of data in a succinct user interface",
+        "Collaborated with senior engineers to design test fixtures and write python scripts which automatically validate the functionality of production-ready predictive maintenance equipment."
+      ],
+      "skills": ["Python"],
+      "date": "May 2022 - May 2023"
     }
   },
   "projectPage": {
     "ppoImplementation": {
       "title": "PPO Algorithm Implementation",
-      "description": "Implemented the PPO deep reinforcement learning algorithm to a toy gymnasium environment.",
+      "description": "I implemented the PPO deep reinforcement learning algorithm to solve a toy gymnasium environment.",
+      "motivation": "I'm trying to learn machine learning",
+      "roadblocks": "Shit is confusing as hell",
+      "lessons": "Don't be a bitch",
+      "extra": {},
       "skills": ["Python", "PyTorch"]
+    },
+    "portfolioWebsite": {
+      "title": "Portfolio Website",
+      "description": "I wanted a place where I had more control over how I presented myself, so I learned how to implement popular frameworks like React, Tailwind, and GSAP to create an interactive, animated website. It gives me a place to explain what my projects are, why I did them, and what I learned from them.",
+      "motivation": "As previously mentioned, my motivation for this project was to give myself a place to present my work in a visually appealing, widely accessible way. I've always been interested in user interaction, so it was also an excuse to teach myself new skills commonly used for UX.",
+      "roadblocks": "Before starting this website, I had zero experience with JavaScript, CSS, or HTML, and did not know how they interacted to form a website. Luckily, the internet is chalked full of useful graphics, tutorials, and examples that helped guide me through the learning process. After watching a few videos that explained the basics of the dynamics between these three languages and following a few tutorials on the development frameworks React, Tailwind, and GSAP, I decided to start implementing my knowledge to create this website. There were struggles as I learned how to interface between the different frameworks, but I was able to overcome them by reading through the documentation and searching through online forums for answers.",
+      "lessons": "While not the most technically challenging, this project reminded me of the importance of starting. I often struggle with scope creep, and it causes me to give up on a project during the brainstorming phase because I get overwhelmed by everything I want to do. Understanding that the first version is not the last and that you can always revise is an important concept in engineering that this project reminded me of.",
+      "extra": {
+        "github": "https://github.com/nvan21",
+        "test": "test"
+      },
+      "skills": ["JavaScript", "React", "CSS"],
+      "thumbnail": "/portfolio_website.png"
     }
   }
 }

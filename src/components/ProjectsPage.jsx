@@ -25,17 +25,21 @@ const ProjectsPage = () => {
           <ProjectCard
             title={content.projectPage.ppoImplementation.title}
             description={content.projectPage.ppoImplementation.description}
+            motivation={content.projectPage.ppoImplementation.motivation}
+            lessons={content.projectPage.ppoImplementation.lessons}
+            roadblocks={content.projectPage.ppoImplementation.roadblocks}
+            extra={content.projectPage.ppoImplementation.extra}
             skills={content.projectPage.ppoImplementation.skills}
           />
           <ProjectCard
-            title={content.projectPage.ppoImplementation.title}
-            description={content.projectPage.ppoImplementation.description}
-            skills={content.projectPage.ppoImplementation.skills}
-          />
-          <ProjectCard
-            title={content.projectPage.ppoImplementation.title}
-            description={content.projectPage.ppoImplementation.description}
-            skills={content.projectPage.ppoImplementation.skills}
+            title={content.projectPage.portfolioWebsite.title}
+            thumbnail={content.projectPage.portfolioWebsite.thumbnail}
+            description={content.projectPage.portfolioWebsite.description}
+            motivation={content.projectPage.portfolioWebsite.motivation}
+            lessons={content.projectPage.portfolioWebsite.lessons}
+            roadblocks={content.projectPage.portfolioWebsite.roadblocks}
+            extra={content.projectPage.portfolioWebsite.extra}
+            skills={content.projectPage.portfolioWebsite.skills}
           />
         </div>
       </div>
