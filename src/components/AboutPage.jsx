@@ -147,7 +147,7 @@ const AboutPage = () => {
             <SkillCard
               icon={<SiPytorch className="text-gold text-9xl" />}
               text="PyTorch"
-              level={65}
+              level={80}
             />
           </div>
           <div className="sm:w-[250px] w-full">
