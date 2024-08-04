@@ -76,25 +76,24 @@ const ProjectsPage = () => {
         </div>
 
         <div className="flex flex-wrap mt-12 gap-9" ref={projectCardsRef}>
-          <ProjectCard
-            title={content.projectPage.ppoImplementation.title}
-            description={content.projectPage.ppoImplementation.description}
-            motivation={content.projectPage.ppoImplementation.motivation}
-            lessons={content.projectPage.ppoImplementation.lessons}
-            roadblocks={content.projectPage.ppoImplementation.roadblocks}
-            extra={content.projectPage.ppoImplementation.extra}
-            skills={content.projectPage.ppoImplementation.skills}
-          />
-          <ProjectCard
-            title={content.projectPage.portfolioWebsite.title}
-            thumbnail={content.projectPage.portfolioWebsite.thumbnail}
-            description={content.projectPage.portfolioWebsite.description}
-            motivation={content.projectPage.portfolioWebsite.motivation}
-            lessons={content.projectPage.portfolioWebsite.lessons}
-            roadblocks={content.projectPage.portfolioWebsite.roadblocks}
-            extra={content.projectPage.portfolioWebsite.extra}
-            skills={content.projectPage.portfolioWebsite.skills}
-          />
+          {Object.keys(content.projectPage).map((project, index) => {
+            const projectData = content.projectPage[project];
+            const element = (
+              <ProjectCard
+                key={index}
+                title={projectData.title}
+                thumbnail={projectData.thumbnail}
+                description={projectData.description}
+                motivation={projectData.motivation}
+                lessons={projectData.lessons}
+                roadblocks={projectData.roadblocks}
+                extra={projectData.extra}
+                skills={projectData.skills}
+              />
+            );
+
+            return element;
+          })}
         </div>
       </div>
     </section>

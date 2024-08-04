@@ -1,5 +1,14 @@
 {
   "workPage": {
+    "tracREU": {
+      "title": "REU Research Intern",
+      "company": "Translational AI Center at Iowa State University",
+      "experiences": [
+        "Investigated the effectiveness of model-free vs model-based reinforcement learning algorithms in solving the simulation to real gap"
+      ],
+      "skills": ["Reinforcement Learning", "PyTorch"],
+      "date": "May 2024 - August 2024"
+    },
     "csl": {
       "title": "Research Assistant",
       "company": "Coordinated Systems Lab",
@@ -8,7 +17,7 @@
         "Applied machine learning knowledge with PyTorch to write various reinforcement learning algorithms for toy environment"
       ],
       "skills": ["Python", "Pytorch"],
-      "date": "September 2023 - Present"
+      "date": "November 2023 - Present"
     },
     "johnDeere": {
       "title": "Engineering Intern on Implements and Attachments",
@@ -32,27 +41,63 @@
     }
   },
   "projectPage": {
+    "computerVisionBasics": {
+      "title": "Computer Vision Basics",
+      "description": "I recently explored image classification using PyTorch by working with the MNIST and CIFAR-10 datasets. PyTorch’s intuitive framework made it easy to build and train convolutional neural networks. By experimenting with different architectures and hyperparameters, I gained a deeper understanding of how models learn to recognize patterns in images.",
+      "motivation": "My motivation to learn image classification with PyTorch stemmed from a personal project idea: creating an app that can track basketball shots and determine if they go in. This concept intrigued me because I've always wanted a cheap way to track my practice statistics. I realized that mastering image classification would be a crucial step in understanding how to analyze video frames and detect specific events. By learning how to work with datasets like MNIST and CIFAR-10, I built the foundational skills necessary to bring my app idea to life (work in progress).",
+      "roadblocks": "Learning image classification with PyTorch came with its fair share of challenges. While getting started with torchvision data loaders was straightforward, I spent a lot of time trying to understand the intuition behind using components like batch normalization and max pooling layers in convolutional neural networks. It wasn’t just about knowing how they worked but figuring out why they were important and how they improved model performance. Visualizing and quantifying results added another layer of complexity. Learning to interpret metrics like accuracy, loss, and confusion matrices was initially overwhelming. Despite these hurdles, the journey was incredibly rewarding and kept me motivated to continue learning.",
+      "lessons": "Working through image classification projects taught me several valuable lessons that are crucial in the computer vision field. I learned the importance of data augmentation for improving model generalization and gained a deep understanding of how convolutional layers function in feature extraction. Recognizing the significance of activation functions for introducing non-linearity was another key takeaway. I also discovered the effectiveness of using techniques like dropout to prevent overfitting. These experiences helped me build a solid foundation in computer vision, preparing me for opportunities where skills in neural networks and deep learning are essential.",
+      "extra": {
+        "github": "https://github.com/nvan21/image-classification/tree/main"
+      },
+      "skills": ["PyTorch", "Computer Vision", "CNNs"],
+      "thumbnail": "/image_classification_thumbnail.webp"
+    },
     "ppoImplementation": {
       "title": "PPO Algorithm Implementation",
-      "description": "I implemented the PPO deep reinforcement learning algorithm to solve a toy gymnasium environment.",
-      "motivation": "I'm trying to learn machine learning",
-      "roadblocks": "Shit is confusing as hell",
-      "lessons": "Don't be a bitch",
-      "extra": {},
-      "skills": ["Python", "PyTorch"]
+      "description": "I implemented the Proximal Policy Optimization (PPO) algorithm while trying to learn the basics of deep reinforcement learning. Using PyTorch for the neural network backend and Gymnasium for the reinforcement learning environments, I was able to train expert level agents on scenarios with both discrete and continuous action spaces.",
+      "motivation": "When I joined my research lab, I had no prior experience with reinforcement learning (RL), but I was eager to expand my skill set and contribute to cutting-edge projects. I was drawn to the potential of RL to solve complex decision-making problems and was motivated by the challenge of mastering a new field. To begin my journey, I chose to focus on PPO since it's a widely used RL algorithm known for its stability and effectiveness.",
+      "roadblocks": "As I started learning reinforcement learning with PPO, I encountered several roadblocks that tested my persistence. One major challenge was learning PyTorch, which, despite being a powerful tool, had a steep learning curve with its tensor operations and dynamic computation graphs. Additionally, figuring out the best practices for structuring and formatting RL code was tricky, as I needed to ensure my projects were organized and my experiments were reproducible. Translating the concepts from research papers into working code was another hurdle; it required me to carefully interpret mathematical formulations and apply them accurately. These roadblocks were challenging, but they also pushed me to deepen my understanding and improve my skills as I navigated the complexities of RL.",
+      "lessons": "Through this journey, I gradually developed several skills that helped me better understand reinforcement learning. I learned how to use PyTorch to build neural networks and work with its dynamic computation graphs, which was essential for creating RL models. Working with Gymnasium environments gave me practical experience in setting up and experimenting with different RL scenarios. I also improved my ability to translate complex concepts from research papers into code, which helped bridge the gap between theory and practice. This process not only enhanced my coding skills but also deepened my understanding of RL algorithms. Additionally, I became more comfortable reading research papers, allowing me to keep up with the latest advancements in the field.",
+      "extra": {
+        "github": "https://github.com/nvan21/PPO-Pytorch-Implementation"
+      },
+      "skills": ["Python", "PyTorch", "RL", "Gymnasium"],
+      "thumbnail": "/ppo_thumbnail.png"
+    },
+    "f1tenthSimulation": {
+      "title": "Autonomous Racing Simulation",
+      "description": "",
+      "motivation": "",
+      "roadblocks": "",
+      "lessons": "",
+      "extra": {
+        "github": ""
+      },
+      "skills": ["Python", "ROS", "F1Tenth"],
+      "thumbnail": "/f1tenth_thumbnail.png"
     },
     "portfolioWebsite": {
-      "title": "Portfolio Website",
+      "title": "React Portfolio Website",
       "description": "I wanted a place where I had more control over how I presented myself, so I learned how to implement popular frameworks like React, Tailwind, and GSAP to create an interactive, animated website. It gives me a place to explain what my projects are, why I did them, and what I learned from them.",
       "motivation": "As previously mentioned, my motivation for this project was to give myself a place to present my work in a visually appealing, widely accessible way. I've always been interested in user interaction, so it was also an excuse to teach myself new skills commonly used for UX.",
       "roadblocks": "Before starting this website, I had zero experience with JavaScript, CSS, or HTML, and did not know how they interacted to form a website. Luckily, the internet is chalked full of useful graphics, tutorials, and examples that helped guide me through the learning process. After watching a few videos that explained the basics of the dynamics between these three languages and following a few tutorials on the development frameworks React, Tailwind, and GSAP, I decided to start implementing my knowledge to create this website. There were struggles as I learned how to interface between the different frameworks, but I was able to overcome them by reading through the documentation and searching through online forums for answers.",
       "lessons": "While not the most technically challenging, this project reminded me of the importance of starting. I often struggle with scope creep, and it causes me to give up on a project during the brainstorming phase because I get overwhelmed by everything I want to do. Understanding that the first version is not the last and that you can always revise is an important concept in engineering that this project reminded me of.",
       "extra": {
-        "github": "https://github.com/nvan21",
-        "test": "test"
+        "github": "https://github.com/nvan21/personal-portfolio-v2"
       },
       "skills": ["JavaScript", "React", "CSS"],
       "thumbnail": "/portfolio_website.png"
+    },
+    "gravityGenerator": {
+      "title": "Gravity Powered Generator",
+      "description": "",
+      "motivation": "",
+      "roadblocks": "",
+      "lessons": "",
+      "extra": {},
+      "skills": ["Solidworks"],
+      "thumbnail": "/gravity_generator_thumbnail.png"
     }
   }
 }

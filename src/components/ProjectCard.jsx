@@ -17,6 +17,8 @@ const ProjectCard = (props) => {
   const roadblocks = props.roadblocks;
   const extra = props.extra;
 
+  const string_skills = skills.map(skill => `#${skill}`).join('     ')
+
   const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
@@ -121,7 +123,8 @@ const ProjectCard = (props) => {
           <p className="text-cream text-base md:text-xl sm:text-l font-medium font-main">
             {description}
           </p>
-          <div className="flex gap-3">
+          
+          <div className="flex flex-wrap gap-x-3">
             {skills.map((skill, index) => (
               <span
                 key={index}
