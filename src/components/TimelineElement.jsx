@@ -28,8 +28,6 @@ const TimelineElement = (props) => {
       const icon = iconRef.current;
       const parent = parentRef.current;
 
-      const startingX = 0.7 * parent.clientWidth;
-
       gsap.fromTo(
         left,
         { x: "-70%", opacity: 0 }, // Start state

@@ -11,13 +11,14 @@ const ProjectCard = (props) => {
   const title = props.title;
   const thumbnail = props.thumbnail;
   const skills = props.skills;
+  const introduction = props.introduction;
   const description = props.description;
   const motivation = props.motivation;
   const lessons = props.lessons;
   const roadblocks = props.roadblocks;
   const extra = props.extra;
 
-  const string_skills = skills.map(skill => `#${skill}`).join('     ')
+  const string_skills = skills.map((skill) => `#${skill}`).join("     ");
 
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -66,7 +67,7 @@ const ProjectCard = (props) => {
             <div className="flex flex-row w-full h-max xl:h-full xl:w-3/5 bg-cream p-10 xl:p-7 xl:overflow-auto">
               <div className="flex flex-col gap-3">
                 <h1 className="font-main text-gray font-bold text-3xl mt-3">
-                  Introduction
+                  Project Description
                 </h1>
                 <p className="font-main text-lg font-light text-metal">
                   {description}
@@ -92,7 +93,7 @@ const ProjectCard = (props) => {
                 <h1 className="font-main text-gray font-bold text-3xl mt-3">
                   Extra Information
                 </h1>
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-row gap-4 pb-2">
                   {extra.github && (
                     <button onClick={() => openLink(extra.github)}>
                       <IoLogoGithub className="text-5xl text-gold hover:scale-110 duration-500 transition-all" />
@@ -113,7 +114,7 @@ const ProjectCard = (props) => {
         </div>
       ) : (
         <button
-          className="w-full sm:max-w-[350px] bg-gray rounded-lg shadow-xl border-cream border-b-2 p-5 hover-default flex flex-col gap-5 text-left"
+          className="w-full h-full sm:max-w-[350px] bg-gray rounded-lg shadow-xl border-cream border-b-2 p-5 hover-default flex flex-col gap-5 text-left"
           onClick={() => setIsExpanded(!isExpanded)}
         >
           <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-gold">
@@ -121,9 +122,9 @@ const ProjectCard = (props) => {
           </h2>
           <img src={thumbnail} className="rounded-lg" />
           <p className="text-cream text-base md:text-xl sm:text-l font-medium font-main">
-            {description}
+            {introduction}
           </p>
-          
+
           <div className="flex flex-wrap gap-x-3">
             {skills.map((skill, index) => (
               <span

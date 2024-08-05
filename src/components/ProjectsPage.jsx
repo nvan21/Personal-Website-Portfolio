@@ -70,8 +70,8 @@ const ProjectsPage = () => {
           </h1>
           <p className="text-cream text-l md:text-2xl sm:text-xl font-medium font-main mt-2">
             The following is a showcase of my personal projects. Clicking on a
-            card will show more information about the project like pictures,
-            code, etc.
+            card will show more information about the project with links to
+            code/documents at the bottom of each card.
           </p>
         </div>
 
@@ -83,6 +83,7 @@ const ProjectsPage = () => {
                 key={index}
                 title={projectData.title}
                 thumbnail={projectData.thumbnail}
+                introduction={projectData.introduction}
                 description={projectData.description}
                 motivation={projectData.motivation}
                 lessons={projectData.lessons}
