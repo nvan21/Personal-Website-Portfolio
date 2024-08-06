@@ -67,8 +67,15 @@ const ContactPage = () => {
             My Contact Information.
           </h1>
         </div>
-        <div ref={contactFormRef}>
+        <div className="flex flex-col md:flex-row gap-5" ref={contactFormRef}>
           <EmailForm />
+          <div className="flex w-3/5 md:w-2/5 mx-auto items-center justify-center">
+            <img
+              src="/astronaut.png"
+              alt="Cartoon astronaut waving on a rocket."
+              title="Image by catalyst stuff on Freepik"
+            />
+          </div>
         </div>
       </div>
     </section>
