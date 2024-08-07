@@ -71,7 +71,7 @@ const ContactPage = () => {
           <EmailForm />
           <div className="flex w-3/5 md:w-2/5 mx-auto items-center justify-center">
             <img
-              src="./assets/astronaut.png"
+              src="./public/astronaut.png"
               alt="Cartoon astronaut waving on a rocket."
               title="Image by catalyst stuff on Freepik"
             />
