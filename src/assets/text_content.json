@@ -78,7 +78,7 @@
       "roadblocks": "Working on the autonomous driving project came with its fair share of challenges. I had to learn Linux and ROS from scratch, which was a bit overwhelming at first since they’re quite different from what I was used to. Handling the noisy lidar data was another big hurdle, as it required filtering and processing to make it usable for navigation. On top of that, I had to dive into different self-driving algorithms like SLAM (Simultaneous Localization and Mapping), RRT* (Rapidly-exploring Random Tree), and Follow the Gap. Despite these roadblocks, tackling these issues head-on was a great learning experience.",
       "lessons": "I learned a lot from working on this autonomous driving project. Technically, it taught me how different parts of robotic systems connect and communicate, which was really eye-opening. Parsing lidar data was a big part of the process, and I got a good handle on cleaning up and using that data for navigation. I also got to explore how various autonomous driving algorithms work, like SLAM for mapping and RRT* for path planning. Understanding these concepts and seeing how they fit together in a real system was a huge part of what made this project so rewarding.",
       "extra": {
-        "github": ""
+        "github": "https://github.com/nvan21/F1Tenth-Autonomous-Racing"
       },
       "skills": ["Python", "ROS", "F1Tenth"],
       "thumbnail": "/f1tenth_thumbnail.png"
