@@ -55,7 +55,7 @@
         "github": "https://github.com/nvan21/Basketball-Shot-Detection"
       },
       "skills": ["YOLOv8", "Computer Vision", "Image Segmentation"],
-      "thumbnail": "/basketball_tracker_thumbnail.png"
+      "thumbnail": "./assets/basketball_tracker_thumbnail.png"
     },
     "computerVisionBasics": {
       "title": "Computer Vision Basics",
@@ -68,7 +68,7 @@
         "github": "https://github.com/nvan21/image-classification/tree/main"
       },
       "skills": ["PyTorch", "Computer Vision", "CNNs"],
-      "thumbnail": "/image_classification_thumbnail.webp"
+      "thumbnail": "./assets/image_classification_thumbnail.webp"
     },
     "ppoImplementation": {
       "title": "PPO Algorithm Implementation",
@@ -81,7 +81,7 @@
         "github": "https://github.com/nvan21/PPO-Pytorch-Implementation"
       },
       "skills": ["Python", "PyTorch", "RL", "Gymnasium"],
-      "thumbnail": "/ppo_thumbnail.png"
+      "thumbnail": "./assets/ppo_thumbnail.png"
     },
     "f1tenthSimulation": {
       "title": "Autonomous Racing Simulation",
@@ -94,7 +94,7 @@
         "github": "https://github.com/nvan21/F1Tenth-Autonomous-Racing"
       },
       "skills": ["Python", "ROS", "F1Tenth"],
-      "thumbnail": "/f1tenth_thumbnail.png"
+      "thumbnail": "./assets/f1tenth_thumbnail.png"
     },
     "portfolioWebsite": {
       "title": "React Portfolio Website",
@@ -107,7 +107,7 @@
         "github": "https://github.com/nvan21/personal-portfolio-v2"
       },
       "skills": ["JavaScript", "React", "CSS"],
-      "thumbnail": "/portfolio_website.png"
+      "thumbnail": "./assets/portfolio_website.png"
     },
     "gravityGenerator": {
       "title": "Gravity Powered Generator",
@@ -120,7 +120,7 @@
         "github": ""
       },
       "skills": ["Solidworks", "Project Management", "Six Sigma Design"],
-      "thumbnail": "/gravity_generator_thumbnail.png"
+      "thumbnail": "./assets/gravity_generator_thumbnail.png"
     }
   }
 }
