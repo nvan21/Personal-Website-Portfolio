@@ -18,9 +18,6 @@ const ProjectCard = (props) => {
   const roadblocks = props.roadblocks;
   const extra = props.extra;
 
-  const assetBaseUrl = import.meta.env.BASE_URL || "";
-  const imagePath = `${assetBaseUrl}${project.thumbnail}`;
-
   const [isExpanded, setIsExpanded] = useState(false);
 
   useEffect(() => {
