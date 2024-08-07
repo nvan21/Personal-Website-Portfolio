@@ -55,7 +55,7 @@
         "github": "https://github.com/nvan21/Basketball-Shot-Detection"
       },
       "skills": ["YOLOv8", "Computer Vision", "Image Segmentation"],
-      "thumbnail": "./src/assets/basketball_tracker_thumbnail.png"
+      "thumbnail": "src/assets/basketball_tracker_thumbnail.png"
     },
     "computerVisionBasics": {
       "title": "Computer Vision Basics",

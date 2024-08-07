@@ -18,7 +18,8 @@ const ProjectCard = (props) => {
   const roadblocks = props.roadblocks;
   const extra = props.extra;
 
-  const string_skills = skills.map((skill) => `#${skill}`).join("     ");
+  const assetBaseUrl = import.meta.env.BASE_URL || "";
+  const imagePath = `${assetBaseUrl}${project.thumbnail}`;
 
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -52,7 +53,7 @@ const ProjectCard = (props) => {
               <h2 className="text-3xl md:text-5xl sm:text-4xl font-extrabold font-main text-gold flex flex-wrap">
                 {title}
               </h2>
-              <img src={thumbnail} className="rounded-lg" />
+              <img src={imagePath} className="rounded-lg" />
               <div className="flex gap-3 flex-wrap">
                 {skills.map((skill, index) => (
                   <span
@@ -120,7 +121,7 @@ const ProjectCard = (props) => {
           <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-gold">
             {title}
           </h2>
-          <img src={thumbnail} className="rounded-lg" />
+          <img src={imagePath} className="rounded-lg" />
           <p className="text-cream text-base md:text-xl sm:text-l font-medium font-main">
             {introduction}
           </p>
