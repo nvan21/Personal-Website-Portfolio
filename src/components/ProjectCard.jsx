@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 
 import { IoCloseSharp } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io";
+import ppoLogo from "./assets/ppo_thumbnail.png";
 
 gsap.registerPlugin(useGSAP);
 
@@ -120,7 +121,7 @@ const ProjectCard = (props) => {
           <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-gold">
             {title}
           </h2>
-          <img src={thumbnail} className="rounded-lg" />
+          <img src={ppoLogo} className="rounded-lg" />
           <p className="text-cream text-base md:text-xl sm:text-l font-medium font-main">
             {introduction}
           </p>

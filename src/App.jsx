@@ -6,7 +6,6 @@ import AboutPage from "./components/AboutPage";
 import WorkPage from "./components/WorkPage";
 import ProjectsPage from "./components/ProjectsPage";
 import ContactPage from "./components/ContactPage";
-import "./assets/ppo_thumbnail.png";
 
 function App() {
   return (
