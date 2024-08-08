@@ -68,7 +68,7 @@
         "github": "https://github.com/nvan21/image-classification/tree/main"
       },
       "skills": ["PyTorch", "Computer Vision", "CNNs"],
-      "thumbnail": "/image_classification_thumbnail.webp"
+      "thumbnail": "./image_classification_thumbnail.webp"
     },
     "ppoImplementation": {
       "title": "PPO Algorithm Implementation",
@@ -81,7 +81,7 @@
         "github": "https://github.com/nvan21/PPO-Pytorch-Implementation"
       },
       "skills": ["Python", "PyTorch", "RL", "Gymnasium"],
-      "thumbnail": "./src/assets/ppo_thumbnail.png"
+      "thumbnail": "./assets/ppo_thumbnail.png"
     },
     "f1tenthSimulation": {
       "title": "Autonomous Racing Simulation",
