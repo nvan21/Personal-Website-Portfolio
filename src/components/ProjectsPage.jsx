@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 import content from "../assets/text_content.json";
+import basketballThumbnail from "../assets/ppo_thumbnail.png";
 import ProjectCard from "./ProjectCard";
 
 gsap.registerPlugin(useGSAP);
@@ -76,6 +77,20 @@ const ProjectsPage = () => {
         </div>
 
         <div className="flex flex-wrap mt-12 gap-9" ref={projectCardsRef}>
+          <ProjectCard
+            key={index}
+            title={content.projectPage.basketballShotTracker.title}
+            thumbnail={basketballThumbnail}
+            introduction={
+              content.projectPage.basketballShotTracker.introduction
+            }
+            description={content.projectPage.basketballShotTracker.description}
+            motivation={content.projectPage.basketballShotTracker.motivation}
+            lessons={content.projectPage.basketballShotTracker.lessons}
+            roadblocks={content.projectPage.basketballShotTracker.roadblocks}
+            extra={content.projectPage.basketballShotTracker.extra}
+            skills={content.projectPage.basketballShotTracker.skills}
+          />
           {Object.keys(content.projectPage).map((project, index) => {
             const projectData = content.projectPage[project];
             const element = (
