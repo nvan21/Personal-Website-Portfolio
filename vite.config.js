@@ -5,7 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/personal-portfolio-v2/",
-  build: {
-    outDir: "dist", // Ensure this is set correctly
-  },
 });
