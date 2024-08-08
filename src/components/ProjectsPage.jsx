@@ -77,7 +77,6 @@ const ProjectsPage = () => {
 
         <div className="flex flex-wrap mt-12 gap-9" ref={projectCardsRef}>
           <ProjectCard
-            key={index}
             title={content.projectPage.basketballShotTracker.title}
             thumbnail={"./basketball_tracker_thumbnail.png"}
             introduction={
