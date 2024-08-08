@@ -4,7 +4,6 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 import content from "../assets/text_content.json";
-import basketballThumbnail from "./basketball_tracker_thumbnail.png";
 import ProjectCard from "./ProjectCard";
 
 gsap.registerPlugin(useGSAP);
@@ -80,7 +79,7 @@ const ProjectsPage = () => {
           <ProjectCard
             key={index}
             title={content.projectPage.basketballShotTracker.title}
-            thumbnail={basketballThumbnail}
+            thumbnail={"./basketball_tracker_thumbnail.png"}
             introduction={
               content.projectPage.basketballShotTracker.introduction
             }
