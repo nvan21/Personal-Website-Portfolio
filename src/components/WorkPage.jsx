@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 
 import content from "../assets/text_content.json";
 import TimelineElement from "./TimelineElement";
