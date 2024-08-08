@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 import content from "../assets/text_content.json";
-import basketballThumbnail from "../assets/ppo_thumbnail.png";
+import basketballThumbnail from "./basketball_tracker_thumbnail.png";
 import ProjectCard from "./ProjectCard";
 
 gsap.registerPlugin(useGSAP);
