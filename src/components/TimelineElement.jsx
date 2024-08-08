@@ -153,9 +153,7 @@ const TimelineElement = (props) => {
                     </li>
                   ))}
                 </ul>
-                <p className="text-cream text-xl font-medium shadow-xl">
-                  {date}
-                </p>
+                <p className="text-cream text-xl font-medium">{date}</p>
                 <div className="flex gap-3">
                   {skills.map((skill, index) => (
                     <span
@@ -183,7 +181,7 @@ const TimelineElement = (props) => {
             className="hidden w-0 sm:flex sm:w-[45%] sm:flex-col sm:min-h-80 sm:gap-2 sm:justify-center sm:items-end"
             ref={leftRef}
           >
-            <p className="text-cream text-xl font-medium shadow-xl">{date}</p>
+            <p className="text-cream text-xl font-medium">{date}</p>
           </div>
           <div className="flex flex-col w-[10%] items-center">
             <div className="w-1.5 h-[50%] bg-gold" />

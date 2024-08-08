@@ -39,7 +39,7 @@ const EmailForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-3 w-1/2 bg-gray p-5 rounded-lg mt-12"
+      className="flex flex-col gap-3 w-full md:w-1/2 bg-gray p-5 rounded-lg mt-12"
     >
       <h1 className="text-3xl text-gold font-bold">Name</h1>
       <input
