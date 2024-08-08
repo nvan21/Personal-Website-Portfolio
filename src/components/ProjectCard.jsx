@@ -20,8 +20,6 @@ const ProjectCard = (props) => {
 
   const [isExpanded, setIsExpanded] = useState(false);
 
-  console.log(thumbnail);
-
   useEffect(() => {
     if (isExpanded) {
       document.body.style.overflow = "hidden";
