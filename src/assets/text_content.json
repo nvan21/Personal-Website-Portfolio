@@ -81,7 +81,7 @@
         "github": "https://github.com/nvan21/PPO-Pytorch-Implementation"
       },
       "skills": ["Python", "PyTorch", "RL", "Gymnasium"],
-      "thumbnail": "./assets/ppo_thumbnail.png"
+      "thumbnail": "/ppo_thumbnail.png"
     },
     "f1tenthSimulation": {
       "title": "Autonomous Racing Simulation",
