@@ -68,7 +68,7 @@
         "github": "https://github.com/nvan21/image-classification/tree/main"
       },
       "skills": ["PyTorch", "Computer Vision", "CNNs"],
-      "thumbnail": "https://github.com/nvan21/personal-portfolio-v2/blob/main/src/assets/image_classification_thumbnail.webp"
+      "thumbnail": "/dist/assets/image_classification_thumbnail.webp"
     },
     "ppoImplementation": {
       "title": "PPO Algorithm Implementation",
