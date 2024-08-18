@@ -16,10 +16,6 @@ export default {
         cream: "#fefae0",
         light_gold: "#FFCb9a",
       },
-      backgroundImage: {
-        "intro-background": "url('/src/assets/intro-background.jpg')",
-        "space-background": "url('/src/assets/space-background.jpg')",
-      },
     },
   },
   plugins: [],

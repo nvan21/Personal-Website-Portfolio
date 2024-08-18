@@ -127,9 +127,9 @@ const TimelineElement = (props) => {
           </div>
           <div className="flex flex-col w-[10%] items-center">
             <div className="w-1.5 h-[50%] bg-gold" />
-            <div className="h-[50px] aspect-square rounded-full bg-gold flex items-center justify-center">
+            <div className="h-[40px] md:h-[50px] aspect-square rounded-full bg-gold flex items-center justify-center">
               <div ref={iconRef}>
-                <FaGear className="text-3xl text-gray" />
+                <FaGear className="text-2xl md:text-3xl text-gray" />
               </div>
             </div>
             <div className="w-1.5 h-[50%] bg-gold" />
@@ -185,9 +185,9 @@ const TimelineElement = (props) => {
           </div>
           <div className="flex flex-col w-[10%] items-center">
             <div className="w-1.5 h-[50%] bg-gold" />
-            <div className="h-[50px] aspect-square rounded-full bg-gold flex items-center justify-center ">
+            <div className="h-[40px] md:h-[50px] aspect-square rounded-full bg-gold flex items-center justify-center ">
               <div ref={iconRef}>
-                <FaGear className="text-3xl text-gray" />
+                <FaGear className="text-2xl md:text-3xl text-gray" />
               </div>
             </div>
             <div className="w-1.5 h-[50%] bg-gold" />
