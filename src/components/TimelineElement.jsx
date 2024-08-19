@@ -93,20 +93,20 @@ const TimelineElement = (props) => {
           <div className="hidden sm:block sm:w-[45%]">
             <div className="flex min-h-80 items-center justify-center">
               <div
-                className="items-start bg-gray rounded-lg border-cream border-b-2 p-5 flex flex-col gap-3 shadow-xl w-[90%]"
+                className="items-start bg-secondary rounded-lg border-primary_text border-b-2 p-5 flex flex-col gap-3 shadow-xl w-[90%]"
                 ref={leftRef}
               >
-                <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-gold">
+                <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-tertiary">
                   {company}
                 </h2>
-                <p className="text-cream text-base md:text-xl sm:text-l font-medium font-main italic">
+                <p className="text-primary_text text-base md:text-xl sm:text-l font-medium font-main italic">
                   {title}
                 </p>
                 <ul className="list-disc pl-4">
                   {experiences.map((experience, index) => (
                     <li
                       key={index}
-                      className="text-cream text-base md:text-xl sm:text-l font-medium font-main p-1"
+                      className="text-primary_text text-base md:text-xl sm:text-l font-medium font-main p-1"
                     >
                       {experience}
                     </li>
@@ -116,7 +116,7 @@ const TimelineElement = (props) => {
                   {skills.map((skill, index) => (
                     <span
                       key={index}
-                      className="text-light_gold text-base md:text-xl sm:text-l font-medium font-main"
+                      className="text-secondary_text text-base md:text-xl sm:text-l font-medium font-main"
                     >
                       #{skill}
                     </span>
@@ -126,39 +126,39 @@ const TimelineElement = (props) => {
             </div>
           </div>
           <div className="flex flex-col w-[10%] items-center">
-            <div className="w-1.5 h-[50%] bg-gold" />
-            <div className="h-[40px] md:h-[50px] aspect-square rounded-full bg-gold flex items-center justify-center">
+            <div className="w-1.5 h-[50%] bg-tertiary" />
+            <div className="h-[40px] md:h-[50px] aspect-square rounded-full bg-tertiary flex items-center justify-center">
               <div ref={iconRef}>
-                <FaGear className="text-2xl md:text-3xl text-gray" />
+                <FaGear className="text-2xl md:text-3xl text-secondary" />
               </div>
             </div>
-            <div className="w-1.5 h-[50%] bg-gold" />
+            <div className="w-1.5 h-[50%] bg-tertiary" />
           </div>
           <div className="w-[70%] sm:w-[45%]" ref={rightRef}>
             <div className="sm:hidden flex flex-col min-h-80 gap-2 justify-center items-start sm:items-center">
-              <div className="items-start bg-gray rounded-lg border-cream border-b-2 p-5 flex flex-col gap-3 shadow-xl w-[90%]">
-                <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-gold">
+              <div className="items-start bg-secondary rounded-lg border-primary_text border-b-2 p-5 flex flex-col gap-3 shadow-xl w-[90%]">
+                <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-tertiary">
                   {company}
                 </h2>
-                <p className="text-cream text-base md:text-xl sm:text-l font-medium font-main italic">
+                <p className="text-primary_text text-base md:text-xl sm:text-l font-medium font-main italic">
                   {title}
                 </p>
                 <ul className="list-disc pl-4">
                   {experiences.map((experience, index) => (
                     <li
                       key={index}
-                      className="text-cream text-base md:text-xl sm:text-l font-medium font-main p-1"
+                      className="text-primary_text text-base md:text-xl sm:text-l font-medium font-main p-1"
                     >
                       {experience}
                     </li>
                   ))}
                 </ul>
-                <p className="text-cream text-xl font-medium">{date}</p>
+                <p className="text-primary_text text-xl font-medium">{date}</p>
                 <div className="flex gap-3">
                   {skills.map((skill, index) => (
                     <span
                       key={index}
-                      className="text-light_gold text-base md:text-xl sm:text-l font-medium font-main"
+                      className="text-secondary_text text-base md:text-xl sm:text-l font-medium font-main"
                     >
                       #{skill}
                     </span>
@@ -167,7 +167,7 @@ const TimelineElement = (props) => {
               </div>
             </div>
             <div className="hidden sm:flex flex-col h-full gap-2 justify-center items-start">
-              <p className="text-cream text-xl font-medium">{date}</p>
+              <p className="text-primary_text text-xl font-medium">{date}</p>
             </div>
           </div>
         </div>
@@ -181,47 +181,47 @@ const TimelineElement = (props) => {
             className="hidden w-0 sm:flex sm:w-[45%] sm:flex-col sm:min-h-80 sm:gap-2 sm:justify-center sm:items-end"
             ref={leftRef}
           >
-            <p className="text-cream text-xl font-medium">{date}</p>
+            <p className="text-primary_text text-xl font-medium">{date}</p>
           </div>
           <div className="flex flex-col w-[10%] items-center">
-            <div className="w-1.5 h-[50%] bg-gold" />
-            <div className="h-[40px] md:h-[50px] aspect-square rounded-full bg-gold flex items-center justify-center ">
+            <div className="w-1.5 h-[50%] bg-tertiary" />
+            <div className="h-[40px] md:h-[50px] aspect-square rounded-full bg-tertiary flex items-center justify-center ">
               <div ref={iconRef}>
-                <FaGear className="text-2xl md:text-3xl text-gray" />
+                <FaGear className="text-2xl md:text-3xl text-secondary" />
               </div>
             </div>
-            <div className="w-1.5 h-[50%] bg-gold" />
+            <div className="w-1.5 h-[50%] bg-tertiary" />
           </div>
           <div className="w-[70%] sm:w-[45%]">
             <div
               className="flex flex-col min-h-80 gap-2 justify-center items-start sm:items-center"
               ref={rightRef}
             >
-              <div className="items-start bg-gray rounded-lg border-cream border-b-2 p-5 flex flex-col gap-3 shadow-xl w-[90%]">
-                <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-gold">
+              <div className="items-start bg-secondary rounded-lg border-primary_text border-b-2 p-5 flex flex-col gap-3 shadow-xl w-[90%]">
+                <h2 className="text-xl md:text-3xl sm:text-2xl font-extrabold font-main text-tertiary">
                   {company}
                 </h2>
-                <p className="text-cream text-base md:text-xl sm:text-l font-medium font-main italic">
+                <p className="text-primary_text text-base md:text-xl sm:text-l font-medium font-main italic">
                   {title}
                 </p>
                 <ul className="list-disc pl-4">
                   {experiences.map((experience, index) => (
                     <li
                       key={index}
-                      className="text-cream text-base md:text-xl sm:text-l font-medium font-main p-1"
+                      className="text-primary_text text-base md:text-xl sm:text-l font-medium font-main p-1"
                     >
                       {experience}
                     </li>
                   ))}
                 </ul>
-                <p className="block sm:hidden text-cream text-xl font-medium">
+                <p className="block sm:hidden text-primary_text text-xl font-medium">
                   {date}
                 </p>
                 <div className="flex gap-3">
                   {skills.map((skill, index) => (
                     <span
                       key={index}
-                      className="text-light_gold text-base md:text-xl sm:text-l font-medium font-main"
+                      className="text-secondary_text text-base md:text-xl sm:text-l font-medium font-main"
                     >
                       #{skill}
                     </span>

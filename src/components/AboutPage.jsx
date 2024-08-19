@@ -99,69 +99,63 @@ const AboutPage = () => {
 
   return (
     <section
-      className="px-6 py-10 sm:px-16 sm:py-16 max-w-7xl mx-auto relative z=0 bg-metal"
+      className="px-6 py-10 sm:px-16 sm:py-16 max-w-7xl mx-auto relative z=0 bg-primary"
       id="about"
     >
       <div className="flex flex-col gap-1">
         <div ref={aboutRef}>
-          <p className="text-cream text-l md:text-2xl sm:text-xl font-medium font-main">
+          <p className="text-primary_text text-l md:text-2xl sm:text-xl font-medium font-main">
             Overview
           </p>
-          <h1 className="text-3xl lg:text-[3.5rem] md:text-5xl sm:text-4xl font-extrabold font-main text-gold mt-2">
+          <h1 className="text-3xl lg:text-[3.5rem] md:text-5xl sm:text-4xl font-extrabold font-main text-tertiary mt-2">
             About Me.
           </h1>
         </div>
         <p
-          className="text-cream text-l md:text-2xl sm:text-xl font-medium font-main mt-2"
+          className="text-primary_text text-l md:text-2xl sm:text-xl font-medium font-main mt-2"
           ref={aboutTextRef}
         >
           I am a {getAge()} year old mechanical engineering student with a
           passion for everything from machine learning to advanced 3D modeling.
           I am a quick, meticulous learner with an intrinsic desire to excel.
           This blend, coupled with my aptitude for collaboration, helps me adapt
-          to new problems and develop innovative solutions.
+          to new problems and develop innovative solutions. The cards below
+          showcase my technical skills.
         </p>
         <div className="flex flex-wrap mt-12 gap-9" ref={skillsRef}>
           <div className="sm:w-[250px] w-full">
             <SkillCard
-              icon={<PiCubeBold className="text-gold text-9xl" />}
+              icon={<PiCubeBold className="text-tertiary text-9xl" />}
               text="Solidworks"
               level={90}
             />
           </div>
           <div className="sm:w-[250px] w-full">
             <SkillCard
-              icon={<FaPython className="text-gold text-9xl" />}
+              icon={<FaPython className="text-tertiary text-9xl" />}
               text="Python"
               level={90}
             />
           </div>
           <div className="sm:w-[250px] w-full">
             <SkillCard
-              icon={<PiCubeBold className="text-gold text-9xl" />}
+              icon={<PiCubeBold className="text-tertiary text-9xl" />}
               text="PTC Creo"
-              level={80}
+              level={85}
             />
           </div>
           <div className="sm:w-[250px] w-full">
             <SkillCard
-              icon={<SiPytorch className="text-gold text-9xl" />}
+              icon={<SiPytorch className="text-tertiary text-9xl" />}
               text="PyTorch"
-              level={80}
+              level={85}
             />
           </div>
           <div className="sm:w-[250px] w-full">
             <SkillCard
-              icon={<IoLogoJavascript className="text-gold text-9xl" />}
+              icon={<IoLogoJavascript className="text-tertiary text-9xl" />}
               text="JavaScript"
               level={50}
-            />
-          </div>
-          <div className="sm:w-[250px] w-full">
-            <SkillCard
-              icon={<SiBlender className="text-gold text-9xl" />}
-              text="Blender"
-              level={40}
             />
           </div>
         </div>

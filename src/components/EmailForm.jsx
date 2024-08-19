@@ -39,11 +39,11 @@ const EmailForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-3 w-full md:w-1/2 bg-gray p-5 rounded-lg mt-12"
+      className="flex flex-col gap-3 w-full md:w-1/2 bg-secondary p-5 rounded-lg mt-12"
     >
-      <h1 className="text-3xl text-gold font-bold">Name</h1>
+      <h1 className="text-3xl text-tertiary font-bold">Name</h1>
       <input
-        className="rounded-lg px-3 bg-cream text-metal w-full font-medium placeholder-metal placeholder:italic placeholder:font-normal shadow-xl"
+        className="rounded-lg px-3 bg-primary_text text-primary w-full font-medium placeholder-primary placeholder:italic placeholder:font-normal shadow-xl"
         type="text"
         id="name"
         autoComplete="name"
@@ -51,9 +51,9 @@ const EmailForm = () => {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <h1 className="text-3xl text-gold font-bold mt-3">Email</h1>
+      <h1 className="text-3xl text-tertiary font-bold mt-3">Email</h1>
       <input
-        className="rounded-lg px-3 bg-cream text-metal w-full font-medium placeholder-metal placeholder:italic placeholder:font-normal shadow-xl"
+        className="rounded-lg px-3 bg-primary_text text-primary w-full font-medium placeholder-primary placeholder:italic placeholder:font-normal shadow-xl"
         type="email"
         id="email"
         autoComplete="email"
@@ -61,9 +61,9 @@ const EmailForm = () => {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <h1 className="text-3xl text-gold font-bold">Message</h1>
+      <h1 className="text-3xl text-tertiary font-bold">Message</h1>
       <textarea
-        className="rounded-lg px-3 bg-cream text-metal w-full font-medium placeholder-metal placeholder:italic placeholder:font-normal shadow-xl"
+        className="rounded-lg px-3 bg-primary_text text-primary w-full font-medium placeholder-primary placeholder:italic placeholder:font-normal shadow-xl"
         cols="30"
         rows="10"
         id="message"
@@ -72,7 +72,7 @@ const EmailForm = () => {
         onChange={(e) => setMessage(e.target.value)}
       />
       <button
-        className="bg-gold w-1/2 mx-auto rounded-lg text-cream font-bold text-xl p-2 shadow-xl mt-3"
+        className="bg-tertiary w-1/2 mx-auto rounded-lg text-primary_text font-bold text-xl p-2 shadow-xl mt-3"
         type="submit"
       >
         Send Email

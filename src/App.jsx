@@ -9,7 +9,7 @@ import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
-    <div className="relative z-0 bg-metal">
+    <div className="relative z-0 bg-primary">
       <NavBar />
       <IntroPage />
       <AboutPage />

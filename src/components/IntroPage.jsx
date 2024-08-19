@@ -61,19 +61,22 @@ const IntroPage = () => {
       <div className="max-w-7xl gap-5 flex items-start px-6 inset-0 sm:px-16 mx-auto">
         <div className="flex flex-col items-center">
           <div ref={gearRef}>
-            <FaGear className="text-gold text-xl" />
+            <FaGear className="text-tertiary text-xl" />
           </div>
-          <div className="w-1 h-40 bg-gradient-to-b from-gold" ref={barRef} />
+          <div
+            className="w-1 h-40 bg-gradient-to-b from-tertiary"
+            ref={barRef}
+          />
         </div>
         <div className="flex flex-col gap-4" ref={textRef}>
-          <h1 className="text-cream text-3xl lg:text-[3.5rem] md:text-5xl sm:text-4xl font-extrabold font-main items-center mt-2">
-            Hello, I'm <span className="text-gold">Nathan Van Utrecht</span>
+          <h1 className="text-primary_text text-3xl lg:text-[3.5rem] md:text-5xl sm:text-4xl font-extrabold font-main items-center mt-2">
+            Hello, I'm <span className="text-tertiary">Nathan Van Utrecht</span>
           </h1>
-          <p className="text-cream text-l md:text-2xl sm:text-xl font-medium font-main">
+          <p className="text-primary_text text-l md:text-2xl sm:text-xl font-medium font-main">
             Mechanical Engineering Student <br /> Artificial Intelligence
             Researcher <br /> Undergraduate at Iowa State University
           </p>
-          <div className="flex flex-row gap-3 text-gold text-3xl">
+          <div className="flex flex-row gap-3 text-tertiary text-3xl">
             <button
               className="hover-default"
               onClick={() => handleOnLinkClick(githubLink)}

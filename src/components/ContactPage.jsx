@@ -55,16 +55,16 @@ const ContactPage = () => {
 
   return (
     <section
-      className="px-6 py-10 sm:px-16 sm:py-16 max-w-7xl mx-auto relative z=0 bg-metal"
+      className="px-6 py-10 sm:px-16 sm:py-16 max-w-7xl mx-auto relative z=0 bg-primary"
       id="contact"
     >
       <div className="flex flex-col gap-1">
         <div ref={contactIntroRef}>
-          <p className="text-cream text-l md:text-2xl sm:text-xl font-medium font-main">
+          <p className="text-primary_text text-l md:text-2xl sm:text-xl font-medium font-main">
             Contact me
           </p>
-          <h1 className="text-3xl lg:text-[3.5rem] md:text-5xl sm:text-4xl font-extrabold font-main text-gold mt-2">
-            My Contact Information.
+          <h1 className="text-3xl lg:text-[3.5rem] md:text-5xl sm:text-4xl font-extrabold font-main text-tertiary mt-2">
+            Send Me an Email.
           </h1>
         </div>
         <div className="flex flex-col md:flex-row gap-5" ref={contactFormRef}>
