@@ -3,7 +3,7 @@ import React from "react";
 import content from "../assets/text_content.json";
 import TimelineElement from "./TimelineElement";
 
-const WorkPage = () => {
+const ResearchPage = () => {
   let isLeft = true;
 
   return (
@@ -13,15 +13,15 @@ const WorkPage = () => {
     >
       <div className="flex flex-col gap-1 mt-2">
         <p className="text-primary_text text-l md:text-2xl sm:text-xl font-medium font-main">
-          Work experience
+          My research
         </p>
         <h1 className="text-3xl lg:text-[3.5rem] md:text-5xl sm:text-4xl font-extrabold font-main text-tertiary mt-2">
-          Professional Experiences.
+          Research Experiences.
         </h1>
       </div>
       <div className="flex flex-col mt-12 w-max-7xl items-center">
-        {Object.keys(content.workPage).map((job, index) => {
-          const jobData = content.workPage[job];
+        {Object.keys(content.researchPage).map((job, index) => {
+          const jobData = content.researchPage[job];
           const element = (
             <TimelineElement
               key={index}
@@ -44,4 +44,4 @@ const WorkPage = () => {
   );
 };
 
-export default WorkPage;
+export default ResearchPage;

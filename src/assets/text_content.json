@@ -1,8 +1,31 @@
 {
   "workPage": {
+    "johnDeere": {
+      "title": "Engineering Intern on Implements and Attachments",
+      "company": "John Deere",
+      "experiences": [
+        "Leveraged CAD and manufacturing process knowledge to develop a functional prototype of a lawnmower tool storage bracket for the select series lawnmowers",
+        "Laid the groundwork for future tractor cab redesigns by integrating market research, homologation investigation, and product design strategies to develop initial prototypes for feature adds which bolster the company’s business portfolio"
+      ],
+      "skills": ["PTC Creo", "Project Management"],
+      "date": "May 2023 - August 2023"
+    },
+    "graceTechnologies": {
+      "title": "IIoT Engineering Intern",
+      "company": "Grace Technologies",
+      "experiences": [
+        "Developed a field debugger application using Python, tkinter, and pandas which queries an SQL database and returns various types of data in a succinct user interface",
+        "Collaborated with senior engineers to design test fixtures and develop generalized Python scripts for the automated validation of predictive maintenance equipment across various configurations. Ensured accurate MODBUS registry access and data storage, validated Wi-Fi and cellular connectivity, and cross-referenced SQL database validation data with DAQ board readings",
+        "Modified an existing project to create a data visualization tool that pulls from an SQL database, enabling field engineers to easily interpret and debug data during equipment diagnostics"
+      ],
+      "skills": ["Python", "tkinter", "pandas"],
+      "date": "May 2022 - May 2023"
+    }
+  },
+  "researchPage": {
     "tracREU": {
       "title": "REU Research Intern",
-      "company": "Translational AI Center at Iowa State University",
+      "company": "Translational AI Center | Funded by AIIRA",
       "experiences": [
         "Investigated the effectiveness of model-free vs model-based reinforcement learning algorithms in solving the simulation to real gap",
         "Presented my research on a poster at Iowa State’s Summer Undergraduate Research Symposium, where I explained my findings to fellow researchers and engaged in idea exchanges with graduate students and professors",
@@ -15,32 +38,24 @@
       "title": "Research Assistant",
       "company": "Coordinated Systems Lab",
       "experiences": [
-        "Utilized various resources to learn the fundamentals of machine learning",
-        "Applied machine learning knowledge with PyTorch to write various reinforcement learning algorithms for toy Gymnasium environments",
-        "Assisted in developing code for autonomous UAV simulation"
+        "Studied foundational concepts in machine learning and reinforcement learning through extensive literature review",
+        "Implemented reinforcement learning algorithms in PyTorch based on academic papers for toy environments",
+        "Assisted in coding an autonomous UAV gymnasium simulation as part of an NSF-funded project",
+        "Participated in weekly group meetings for collaborative paper readings and discussions on emerging topics in the field"
       ],
       "skills": ["Python", "Pytorch"],
       "date": "November 2023 - Present"
     },
-    "johnDeere": {
-      "title": "Engineering Intern on Implements and Attachments",
-      "company": "John Deere",
+    "amesNationalLab": {
+      "title": "Undergraduate Researcher",
+      "company": "Ames National Laboratory",
       "experiences": [
-        "Leveraged CAD and manufacturing process knowledge to develop a functional prototype of a lawnmower tool storage bracket for the select series lawnmowers",
-        "Laid the groundwork for future tractor cab redesigns by integrating market research, homologation investigation, and product design strategies to develop initial prototypes for feature adds which bolster the company’s business portfolio"
+        "Conducted magneto-optical imaging of superconductors, specifically focusing on Niobium single crystals and superconducting radio frequency (SRF) cavities using a cryogenic setup",
+        "Analyzed critical current density and magnetic field distribution in Niobium samples, providing valuable data for optimizing SRF cavities in quantum computing applications",
+        "Investigated the presence of hydrides in different SRF cavity structures to enhance performance by minimizing these defects"
       ],
-      "skills": ["PTC Creo"],
-      "date": "May 2023 - August 2023"
-    },
-    "graceTechnologies": {
-      "title": "IIoT Engineering Intern",
-      "company": "Grace Technologies",
-      "experiences": [
-        "Developed a field debugger application using python which queries an SQL database and returns various types of data in a succinct user interface",
-        "Collaborated with senior engineers to design test fixtures and write python scripts which automatically validate the functionality of production-ready predictive maintenance equipment."
-      ],
-      "skills": ["Python"],
-      "date": "May 2022 - May 2023"
+      "skills": ["Data Management", "Analytical Thinking"],
+      "date": "Jan 2022 - May 2022"
     }
   },
   "projectPage": {
